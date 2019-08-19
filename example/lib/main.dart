@@ -24,7 +24,9 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: FlatButton(
             child: Text('Log with twitter'),
-            onPressed: () => FlTwitterLogin.twitterLogin(),
+            onPressed: () => FlTwitterLogin.twitterLogin(
+                consumerKey: "Ck2VbYUAMuPiES7OwULwfKbLE",
+                secret: "UlHLROt3RZCB1Calrb1UEujfApi1EIWamG5KAe3frLnzYJMity"),
           ),
         ),
       ),
