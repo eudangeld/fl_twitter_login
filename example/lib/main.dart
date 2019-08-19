@@ -19,14 +19,14 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const Text('Twitter Login Example App'),
         ),
         body: Center(
           child: FlatButton(
-            child: Text('Log with twitter'),
+            child: Text('Login with twitter'),
             onPressed: () => FlTwitterLogin.twitterLogin(
-                consumerKey: "Ck2VbYUAMuPiES7OwULwfKbLE",
-                secret: "UlHLROt3RZCB1Calrb1UEujfApi1EIWamG5KAe3frLnzYJMity"),
+                consumerKey: "your-consumer-key",
+                secret: "yout-secret-consumer-key"),
           ),
         ),
       ),

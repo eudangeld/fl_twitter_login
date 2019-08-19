@@ -1,6 +1,8 @@
 PODS:
   - fl_twitter_login (0.0.1):
     - Flutter
+    - TwitterCore
+    - TwitterKit
   - Flutter (1.0.0)
   - TwitterCore (3.2.0)
   - TwitterKit (3.4.2):
@@ -24,7 +26,7 @@ EXTERNAL SOURCES:
     :path: ".symlinks/flutter/ios"
 
 SPEC CHECKSUMS:
-  fl_twitter_login: c0bca72bc9c80ae75efbd968333ff35ffb164dc8
+  fl_twitter_login: 060f53a41bdef627b9ca6d1ae71a186d024af1bf
   Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb

@@ -15,7 +15,8 @@ A new flutter plugin project.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-
-  s.ios.deployment_target = '8.0'
+  s.dependency 'TwitterKit'
+  s.dependency 'TwitterCore'
+  s.ios.deployment_target = '10.1'
 end
 
