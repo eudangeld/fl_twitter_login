@@ -11,8 +11,6 @@ PODS:
 DEPENDENCIES:
   - fl_twitter_login (from `.symlinks/plugins/fl_twitter_login/ios`)
   - Flutter (from `.symlinks/flutter/ios`)
-  - TwitterCore
-  - TwitterKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -26,11 +24,11 @@ EXTERNAL SOURCES:
     :path: ".symlinks/flutter/ios"
 
 SPEC CHECKSUMS:
-  fl_twitter_login: 060f53a41bdef627b9ca6d1ae71a186d024af1bf
+  fl_twitter_login: 748f53c4b34e45c80e1c4797a97e6b7b38ce0879
   Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
 
-PODFILE CHECKSUM: 4065d7753d3543156dd3d05886fd82c67300abb4
+PODFILE CHECKSUM: 3343cd5ef327c708c2ac2064b59e0d958c9fb3d2
 
 COCOAPODS: 1.7.5
