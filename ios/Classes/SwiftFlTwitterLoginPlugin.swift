@@ -6,7 +6,7 @@ import TwitterKit
 
 public class SwiftFlTwitterLoginPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "fl_twitter_login", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "fl.dan.twitter/login", binaryMessenger: registrar.messenger())
     let instance = SwiftFlTwitterLoginPlugin()
     
     channel.setMethodCallHandler({
