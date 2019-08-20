@@ -15,9 +15,9 @@ Authh users using twitter
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'TwitterKit'
-  s.dependency 'TwitterCore'
+  s.dependency 'TwitterKit',"~> 3.4.0"
+  s.dependency 'TwitterCore',"~> 3.2.0"
   s.ios.deployment_target = '10.1'
-  s.swift_version = '4.0'
+  s.swift_version = '5.0'
 end
 
